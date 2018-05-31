@@ -32,7 +32,7 @@ Set up a `shell alias`:
 Type that at a prompt, better to make the change to be persistent put it in `~/.bashrc` , and now when I type python it runs the chosen python 3, but when some program on the system tries to run a script with /usr/bin/ python it runs the standard 2.7!
 
 ***
-**A stable solution**
+**A stable solution an my recommendation !!!**
 
 Create your own link in a directory that's listed in the path prior to the usr/bin path, or /usr/bin path. In this case below, the */usr/local/bin path is listed prior /usr/bin*. 
 

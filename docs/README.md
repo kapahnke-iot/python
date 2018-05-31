@@ -7,11 +7,12 @@ Find out which python version is used per default.
 ```
 pi@raspberrypi:~ $ which python
 /usr/bin/python
+
 pi@raspberrypi:~ $ ls -al /usr/bin/python
 lrwxrwxrwx 1 root staff 16 May 29 19:01 /usr/bin/python -> python2 
 ```
 
-Since the file starts with an `l` in its attributes, and security permissions, it indicates that it is a `link where /usr/bin/python is linked to Python 2`. At the moment is python2 the default version on Linux, and we have to change the default to python 3. 
+At the moment is python2 the default version on Linux, and we have to change the default to python 3. Since the file starts with an `l` in its attributes, and security permissions, it indicates that it is a `link where /usr/bin/python is linked to Python 2`. 
 
 While I easily could change this link to Python 3, it is probably not the best choice! Upon updating Python, I would find that the link would have been updated back to the original link location pointing to Python 2. 
 

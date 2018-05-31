@@ -23,7 +23,7 @@ Since the file starts with an `l` in its attributes, it indicates that it is a `
 While I easily could change this link to Python 3, it is probably not the best choice! Upon updating Python, I would find that the link would have been updated back to the original link location pointing to Python 2. 
 
 ***
-**An easier solution but still NOT 100% save** 
+**Another easy solution but still NOT 100% save** 
 
 Set up a `shell alias`:
 

@@ -1,1 +1,6 @@
-# This are my python samples ...
+# This my collection of python samples
+
+## Python classes
+### Basic class 1
+all my python code is store here: https://github.com/kapahnke-iot/python/tree/master/basic-class-1
+### Basic class 2

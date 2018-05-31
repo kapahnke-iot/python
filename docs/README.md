@@ -1,4 +1,4 @@
-# Here is my collection of python samples
+# Here is my python collection
 
 ## Python classes
 ### Basic class 1

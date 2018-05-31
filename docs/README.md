@@ -29,7 +29,7 @@ Set up a shell alias, type that at a prompt:
 
 ```alias python=/usr/local/bin/python3```
 
-Better to make the change to be persistent put it in `~/.bashrc`, now when I type *python* it runs the chosen python3, but when some program on the system tries to run a script with /usr/bin/ python it runs the linux default python2!
+Better to make the change to be persistent put it in `~/.bashrc`, now when I type *python* it runs the chosen python3, but when some program on the system tries to run a script with `/usr/bin/python` it runs the linux default python2!
 
 ***
 **A stable solution an my recommendation !!!**

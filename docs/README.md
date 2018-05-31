@@ -38,7 +38,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-**An easier solution but 100% save** is to set up a shell alias:
+**An easier solution but NOT 100% save** is to set up a shell alias:
 
 ```alias python=/usr/local/bin/python3```
 

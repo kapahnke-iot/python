@@ -16,20 +16,20 @@ lrwxrwxrwx 1 root staff 16 May 29 19:01 /usr/bin/python -> python2
 At the moment is python2 the default version on Linux, and we have to change the default to python 3. 
 
 ***
-**A quick solution but error prone**
+**A quick solution is to change the link to python3, but error prone**
 
 Since the file starts with an `l` in its attributes, it indicates that it is a `link` where /usr/bin/python is linked to Python 2. 
 
-While I easily could change this link to Python 3, it is probably not the best choice! Upon updating Python, I would find that the link would have been updated back to the original link location pointing to Python 2. 
+While I easily could change this link to **Python3**, it is probably not the best choice! Upon updating Python, I would find that the link would have been updated back to the original link location pointing back to *Python 2*. 
 
 ***
-**Another easy solution but still NOT 100% save** 
+**Another quick solution is to use a shell alias, but error prone** 
 
-Set up a `shell alias`:
+Set up a shell alias, type that at a prompt:
 
 ```alias python=/usr/local/bin/python3```
 
-Type that at a prompt, better to make the change to be persistent put it in `~/.bashrc` , and now when I type python it runs the chosen python 3, but when some program on the system tries to run a script with /usr/bin/ python it runs the standard 2.7!
+Better to make the change to be persistent put it in `~/.bashrc`, now when I type *python* it runs the chosen python3, but when some program on the system tries to run a script with /usr/bin/ python it runs the linux default python2!
 
 ***
 **A stable solution an my recommendation !!!**

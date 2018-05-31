@@ -1,6 +1,7 @@
-# Here is my python collection
-
+# My python notes and collection
+***
 ## Python classes
+***
 ### Basic class 1
 The complete source code is stored here: https://github.com/kapahnke-iot/python/tree/master/basic-class-1
 ### Basic class 2

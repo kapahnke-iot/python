@@ -1,6 +1,6 @@
 # My python notes and collection
 ***
-## Python classes
+## Python courses
 
 ### Two version of python on Pi, how to make python 3 the default interpreter
 
